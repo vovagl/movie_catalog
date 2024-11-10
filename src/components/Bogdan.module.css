@@ -1,0 +1,53 @@
+.header {
+    display: block;
+}
+
+.button {
+    margin: 40px 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+.cards {
+    margin: 10px auto;
+    width: 250px;
+    height: 700px;
+    overflow: hidden auto;
+    border: 2px solid #6bb684;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.return {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    padding: 10px;
+    background-color: rgb(126, 240, 126);
+}
+
+@media (max-width:767px) {
+    .content {
+        display: block;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    .cards {
+        width: 750px;
+        height: 2000px;
+    }
+}
+
+@media (min-width:1025px) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

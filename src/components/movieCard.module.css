@@ -1,0 +1,65 @@
+.image {
+    width: 98%;
+    height: 50%;
+    padding-top: 5px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.overview {
+    flex: 1;
+}
+
+.info {
+    margin-top: 10px;
+
+    background-color: rgb(143, 142, 142);
+    border-radius: 0 0 5px 5px;
+}
+
+.rating {
+    width: 80px;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.progress {
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:767px) {
+    .image {
+        height: 70%;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .overview {
+        font-size: 36px;
+    }
+
+    .info {
+        height: 200px;
+    }
+
+    .rating {
+        width: 280px;
+        height: 80px;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .progress {
+        width: 300px;
+        height: 30px;
+    }
+}

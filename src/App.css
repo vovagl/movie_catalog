@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  min-width: 1025px;
+}
+
+
+button {
+  padding: 25px 25px;
+  font-size: 24px;
+  border-radius: 20px;
+}
