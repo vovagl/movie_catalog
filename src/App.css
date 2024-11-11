@@ -5,12 +5,15 @@
 }
 
 html {
+  width: 100vw;
   scroll-behavior: smooth;
 }
 
+
+
 .App {
   text-align: center;
-  min-width: 1025px;
+
 }
 
 

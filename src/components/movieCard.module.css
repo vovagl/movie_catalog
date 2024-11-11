@@ -1,6 +1,5 @@
 .image {
-    width: 98%;
-    height: 50%;
+    width: 97%;
     padding-top: 5px;
     margin: auto;
     border-radius: 8px;
@@ -33,26 +32,18 @@
 }
 
 @media (max-width:767px) {
-    .image {
-        height: 70%;
-    }
 
     h1 {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .overview {
-        font-size: 36px;
-    }
-
-    .info {
-        height: 200px;
+        font-size: 24px;
     }
 
     .rating {
-        width: 280px;
-        height: 80px;
-        font-size: 36px;
+        width: 200px;
+        font-size: 24px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -60,6 +51,6 @@
 
     .progress {
         width: 300px;
-        height: 30px;
+        height: 20px;
     }
 }
